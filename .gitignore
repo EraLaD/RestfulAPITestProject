@@ -1,0 +1,27 @@
+## Visual Studio temporary files and folders
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+
+## Visual Studio user-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+## Resharper/Rider/Visual Studio Code
+.idea/
+.vscode/
+.vs/
+
+## Test results
+TestResults/
+*.trx
+*.vstest
+
+## OS generated files
+.DS_Store
+Thumbs.db
