@@ -41,6 +41,8 @@ This repository contains an automated test suite for the Restful-API.dev public 
 
 ⚠️ Important Notes
 
-    Rate Limiting: This public API has a daily limit of 50 requests. If you see MethodNotAllowed with a "daily request limit" error, please wait for the reset or switch your IP.
+    Rate Limiting: This public API has a daily limit of 50 requests. If you see MethodNotAllowed with a 
+    "daily request limit" error, please wait for the reset or switch your IP.
 
-    Test Ordering: Because the tests follow a CRUD flow (Create -> Read -> Update -> Delete), I have used xUnit.Priority to ensure they run in the correct logical sequence.
+    Test Ordering: Because the tests follow a CRUD flow (Create -> Read -> Update -> Delete), 
+    I have used xUnit.Priority to ensure they run in the correct logical sequence.
